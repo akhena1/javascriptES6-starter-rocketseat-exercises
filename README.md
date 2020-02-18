@@ -5,18 +5,22 @@ Exercicios referentes ao curso de Javacript ES6 da Rocketseat, Classes, métodos
 **A resolução dos exercícios esta no arquivo_main.js_ dentro de cada diretório**
 
 ### Preparando o ambiente do ES6 com o Yarn
-```yarn init``` aperte enter para todas as opções
+execute o comando ```yarn init``` ,aperte enter para todas as opções
 
 Instalando o Babel
+
 ```yarn add @babel/cli, @babel/preset-env, @babel/core```
 
 Crie um arquivo `.babelrc` e defina o preset
+
 ```{ "presets": ["@babel/preset-env"] }```
 
 Crie um arquivo .gitignore e ignore a posta node_modules
+
 ```node_modules/```
 
 No arquivo `package.json` crie o script para executar o babel e monitorar as alterações
+
 ```{
   "name": "webpack",
   "version": "1.0.0",
