@@ -11,9 +11,21 @@ Instalando o Babel
 
 ```yarn add @babel/cli, @babel/preset-env, @babel/core```
 
+Para utilizar os operadores rest/spread(...) instale o plugin do babel
+
+```yarn add @babel.plugin-proposal-object-rest-spread```
+
+
+
 Crie um arquivo `.babelrc` e defina o preset
 
-```{ "presets": ["@babel/preset-env"] }```
+```
+
+{ 
+  "presets": ["@babel/preset-env"],
+  "plugins": ["@babel/plugins-proposal-object-rest-spread"] 
+}
+```
 
 Crie um arquivo .gitignore e ignore a pasta node_modules
 
